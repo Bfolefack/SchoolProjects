@@ -1,0 +1,455 @@
+Project documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.8.0_181\bin\javadoc.exe
+-sourcepath
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1
+-source
+1.8
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJ\lib\userlib\pi4j-service.jar;D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1
+-d
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc
+-encoding
+windows-1252
+-charset
+windows-1252
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+gridworld unpacked1
+-windowtitle
+gridworld unpacked1
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+gridworld.actor
+gridworld.world
+gridworld.grid
+gridworld.gui
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1/InheritancePlay.java
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1/Gibson.java
+<---- end of javadoc command ---->
+Loading source file D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\InheritancePlay.java...
+Loading source file D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\Gibson.java...
+Loading source files for package gridworld.actor...
+Loading source files for package gridworld.world...
+Loading source files for package gridworld.grid...
+Loading source files for package gridworld.gui...
+Constructing Javadoc information...
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\InheritancePlay.java:4: error: package info.gridworld.actor does not exist
+import info.gridworld.actor.*;
+^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\InheritancePlay.java:5: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.*;
+^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\Gibson.java:3: error: package info.gridworld.actor does not exist
+import info.gridworld.actor.*;
+^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\Gibson.java:4: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.*;
+^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\Gibson.java:6: error: cannot find symbol
+public class Gibson extends Actor
+                            ^
+  symbol: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:19: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:20: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:31: error: cannot find symbol
+    private Grid<Actor> grid;
+            ^
+  symbol:   class Grid
+  location: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:32: error: cannot find symbol
+    private Location location;
+            ^
+  symbol:   class Location
+  location: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:92: error: cannot find symbol
+    public Grid<Actor> getGrid()
+           ^
+  symbol:   class Grid
+  location: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:102: error: cannot find symbol
+    public Location getLocation()
+           ^
+  symbol:   class Location
+  location: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:115: error: cannot find symbol
+    public void putSelfInGrid(Grid<Actor> gr, Location loc)
+                              ^
+  symbol:   class Grid
+  location: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:115: error: cannot find symbol
+    public void putSelfInGrid(Grid<Actor> gr, Location loc)
+                                              ^
+  symbol:   class Location
+  location: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Actor.java:155: error: cannot find symbol
+    public void moveTo(Location newLocation)
+                       ^
+  symbol:   class Location
+  location: class Actor
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\ActorWorld.java:19: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\ActorWorld.java:20: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\ActorWorld.java:21: error: package info.gridworld.world does not exist
+import info.gridworld.world.World;
+                           ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\ActorWorld.java:30: error: cannot find symbol
+public class ActorWorld extends World<Actor>
+                                ^
+  symbol: class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\ActorWorld.java:45: error: cannot find symbol
+    public ActorWorld(Grid<Actor> grid)
+                      ^
+  symbol:   class Grid
+  location: class ActorWorld
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\ActorWorld.java:77: error: cannot find symbol
+    public void add(Location loc, Actor occupant)
+                    ^
+  symbol:   class Location
+  location: class ActorWorld
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\ActorWorld.java:99: error: cannot find symbol
+    public Actor remove(Location loc)
+                        ^
+  symbol:   class Location
+  location: class ActorWorld
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Bug.java:19: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Bug.java:20: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:36: error: cannot find symbol
+    public ArrayList<Actor> getActors()
+           ^
+  symbol:   class ArrayList
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:51: error: cannot find symbol
+    public void processActors(ArrayList<Actor> actors)
+                              ^
+  symbol:   class ArrayList
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:68: error: cannot find symbol
+    public ArrayList<Location> getMoveLocations()
+           ^
+  symbol:   class ArrayList
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:68: error: cannot find symbol
+    public ArrayList<Location> getMoveLocations()
+                     ^
+  symbol:   class Location
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:84: error: cannot find symbol
+    public Location selectMoveLocation(ArrayList<Location> locs)
+                                       ^
+  symbol:   class ArrayList
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:84: error: cannot find symbol
+    public Location selectMoveLocation(ArrayList<Location> locs)
+                                                 ^
+  symbol:   class Location
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:84: error: cannot find symbol
+    public Location selectMoveLocation(ArrayList<Location> locs)
+           ^
+  symbol:   class Location
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\Critter.java:105: error: cannot find symbol
+    public void makeMove(Location loc)
+                         ^
+  symbol:   class Location
+  location: class Critter
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\MyActor.java:3: error: package info.gridworld.actor does not exist
+import info.gridworld.actor.*;
+^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\actor\MyActor.java:4: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.*;
+^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:19: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.BoundedGrid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:20: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:21: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:22: error: package info.gridworld.gui does not exist
+import info.gridworld.gui.WorldFrame;
+                         ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:39: error: cannot find symbol
+    private Grid<T> gr;
+            ^
+  symbol:   class Grid
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:56: error: cannot find symbol
+    public World(Grid<T> g)
+                 ^
+  symbol:   class Grid
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:83: error: cannot find symbol
+    public Grid<T> getGrid()
+           ^
+  symbol:   class Grid
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:92: error: cannot find symbol
+    public void setGrid(Grid<T> newGrid)
+                        ^
+  symbol:   class Grid
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:134: error: cannot find symbol
+    public boolean locationClicked(Location loc)
+                                   ^
+  symbol:   class Location
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:149: error: cannot find symbol
+    public boolean keyPressed(String description, Location loc)
+                                                  ^
+  symbol:   class Location
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:158: error: cannot find symbol
+    public Location getRandomEmptyLocation()
+           ^
+  symbol:   class Location
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:208: error: cannot find symbol
+    public void add(Location loc, T occupant)
+                    ^
+  symbol:   class Location
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\world\World.java:219: error: cannot find symbol
+    public T remove(Location loc)
+                    ^
+  symbol:   class Location
+  location: class World<T>
+  where T is a type-variable:
+    T extends Object declared in class World
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:21: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:22: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:69: error: cannot find symbol
+    private Grid<?> grid;
+            ^
+  symbol:   class Grid
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:76: error: cannot find symbol
+    private Location currentLocation;
+            ^
+  symbol:   class Location
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:265: error: cannot find symbol
+    public void setGrid(Grid<?> gr)
+                        ^
+  symbol:   class Grid
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:342: error: cannot find symbol
+    public void recenter(Location loc)
+                         ^
+  symbol:   class Location
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:366: error: cannot find symbol
+    public Location locationForPoint(Point p)
+           ^
+  symbol:   class Location
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:371: error: cannot find symbol
+    public Point pointForLocation(Location loc)
+                                  ^
+  symbol:   class Location
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:413: error: cannot find symbol
+    private String getToolTipText(Location loc)
+                                  ^
+  symbol:   class Location
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:432: error: cannot find symbol
+    public void setCurrentLocation(Location loc)
+                                   ^
+  symbol:   class Location
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GridPanel.java:441: error: cannot find symbol
+    public Location getCurrentLocation()
+           ^
+  symbol:   class Location
+  location: class GridPanel
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GUIController.java:21: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.*;
+^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\GUIController.java:22: error: package info.gridworld.world does not exist
+import info.gridworld.world.World;
+                           ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\WorldFrame.java:22: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\WorldFrame.java:23: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\WorldFrame.java:24: error: package info.gridworld.world does not exist
+import info.gridworld.world.World;
+                           ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\WorldFrame.java:81: error: cannot find symbol
+    private World<T> world;
+            ^
+  symbol:   class World
+  location: class WorldFrame<T>
+  where T is a type-variable:
+    T extends Object declared in class WorldFrame
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\WorldFrame.java:94: error: cannot find symbol
+    public WorldFrame(World<T> world)
+                      ^
+  symbol:   class World
+  location: class WorldFrame<T>
+  where T is a type-variable:
+    T extends Object declared in class WorldFrame
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\WorldFrame.java:216: error: cannot find symbol
+    public World<T> getWorld()
+           ^
+  symbol:   class World
+  location: class WorldFrame<T>
+  where T is a type-variable:
+    T extends Object declared in class WorldFrame
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\WorldFrame.java:226: error: cannot find symbol
+    public void setGrid(Grid<T> newGrid)
+                        ^
+  symbol:   class Grid
+  location: class WorldFrame<T>
+  where T is a type-variable:
+    T extends Object declared in class WorldFrame
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\LocationEditor.java:19: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:19: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:20: error: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:83: error: cannot find symbol
+    public JPopupMenu makeMethodMenu(T occupant, Location loc)
+                                                 ^
+  symbol:   class Location
+  location: class MenuMaker<T>
+  where T is a type-variable:
+    T extends Object declared in class MenuMaker
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:112: error: cannot find symbol
+            Location loc)
+            ^
+  symbol:   class Location
+  location: class MenuMaker<T>
+  where T is a type-variable:
+    T extends Object declared in class MenuMaker
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:418: error: cannot find symbol
+    private Grid currentGrid;
+            ^
+  symbol:   class Grid
+  location: class MenuMaker<T>
+  where T is a type-variable:
+    T extends Object declared in class MenuMaker
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:419: error: cannot find symbol
+    private Location currentLocation;
+            ^
+  symbol:   class Location
+  location: class MenuMaker<T>
+  where T is a type-variable:
+    T extends Object declared in class MenuMaker
+Standard Doclet version 1.8.0_181
+Building tree for all the packages and classes...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\Gibson.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\InheritancePlay.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\Actor.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\ActorWorld.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\Bug.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\Critter.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\Flower.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\MyActor.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\Rock.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\world\World.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\AbstractGrid.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\BoundedGrid.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\Grid.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\Location.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\UnboundedGrid.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\AbstractDisplay.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\ColorEditor.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\DefaultDisplay.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\Display.html...
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\Display.java:41: warning - @param argument "comp" is not a parameter name.
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\DisplayMap.html...
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\DisplayMap.java:86: warning - @param argument "obj" is not a parameter name.
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\FormLayout.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\GridPanel.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\GUIController.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\ImageDisplay.html...
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\ImageDisplay.java:56: warning - @param argument "imageFilename" is not a parameter name.
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\LocationEditor.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\MenuMaker.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\PropertySheet.html...
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:432: warning - @param argument "object" is not a parameter name.
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:468: warning - @param argument "bean" is not a parameter name.
+D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\gridworld\gui\MenuMaker.java:468: warning - @param argument "descriptor" is not a parameter name.
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\PropertySheet.StringEditor.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\PseudoInfiniteViewport.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\PseudoInfiniteViewport.Pannable.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\WorldFrame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\WorldFrame.GUIExceptionHandler.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\overview-frame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\package-frame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\package-summary.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\package-tree.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\package-frame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\package-summary.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\actor\package-tree.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\package-frame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\package-summary.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\grid\package-tree.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\package-frame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\package-summary.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\gui\package-tree.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\world\package-frame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\world\package-summary.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\gridworld\world\package-tree.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\constant-values.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\serialized-form.html...
+Building index for all the packages and classes...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\overview-tree.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\index-all.html...
+Building index for all classes...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\allclasses-frame.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\allclasses-noframe.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\index.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\overview-summary.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\help-doc.html...
+Generating D:\End of Year 16_17\Assignments\AP CS\AP CS\turn in assignments\quarter 1\actorlabs\period d\bilardi, jake\gridworld unpacked1\doc\stylesheet.css...
+79 warnings

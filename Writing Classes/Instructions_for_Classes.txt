@@ -1,0 +1,58 @@
+The Cell class keeps track of three floats:
+two for the position on the screen and one for the size
+of the Cell.  It also keeps track of two
+integers regarding its internal state.  Name
+the two integers currState and prevState.
+
+The cell class has one constructor that:
+a) allows a user to pick the (x,y) position
+   as well as the width of the Cell object
+b) the constructor will randomly set the 
+current state value  to one of three 
+random numbers (0, 1, or 2)
+c) the constructor sets the previous state
+to the current state
+
+The cell class has action three methods:
+1) savePrevious will update the previous state
+with the current state value  (no parameters)
+2) The newState method has one parameter that
+updates the current state value to the parameter
+
+3) the display method picks of four colors for 
+the cell base on these conditions:
+if the previous state was 0 and the 
+current state is 1 we will be blue, 
+otherwise if our current state is 1 we are black
+otherwise if our previous state was 1
+and the current state is 0 we are red
+all other cases we are white
+after picking the appropriate color we will set the 
+stroke to black and draw a rect at our respective 
+position and size.
+
+The Particle class has four instance variables
+Three PVectors, one to keep track of our location
+one to keep track of our velocity, and a final one to keep track of our acceleration
+finally we need a float to keep track of our life span.
+
+The Particle class has one constructor with one PVector parameter for the location.
+It sets the acceleration to a new PVector of (0, and 0.05) 
+the velocity PVector will be a new PVector with a random x between -1 and 1, as well as
+a random y between -2 and 0.  The location will be a new PVector object with the same x and y
+as the parameter.  Finally, we have a life span of 255 at the start of each particle.
+
+The Particle class has three action methods and one information method.  The isDead() method
+returns true if your life span has dropped below 0 otherwise it returns false.  The display() method
+will pick a stroke of 0 with an alpha transparency equal to our lifespan.  The stroke weight
+will be 2 and the fill will be any color you choose with a alpha transparency of lifespan.
+display() will then draw a circle at our location with a size of 12.  The update() proceeds as
+follows:  the velocity will increase by the acceleration.  Our location will increase by our 
+velocity.  and our lifespan decreases by 2.  Finally the run() method just calls our update() 
+as well as our display() method.
+
+ 
+
+
+
+
